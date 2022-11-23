@@ -1,7 +1,9 @@
 import Head from "next/head";
+import Footer from '../components/Footer'
 
 export default function About() {
   return (
+    <>
     <div className="container">
       <Head>
         <title>About</title>
@@ -37,5 +39,7 @@ export default function About() {
         digestible than video. That's the short answer.
       </p>
     </div>
+    <Footer />
+    </>
   );
 }
